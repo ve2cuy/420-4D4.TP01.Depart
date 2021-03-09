@@ -1,6 +1,6 @@
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01
 
-Il faut démarrer, avec docker-compose, une application multi-services qui propose les services suivants:
+Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les services suivants:
 
 * Le réseau privé: **reseauWP**
 	* **Serveur Web principal** de l'appliccation sur le port **80**
@@ -9,10 +9,10 @@ Il faut démarrer, avec docker-compose, une application multi-services qui propo
 	* Le service **phpmyadmin** sur le port **82**
 
 * Le réseau privé: **reseauPMM**
-	* Le SGBD **postgreSQL**  sur le port **5432**
-	* Le service **percona PMM Server** sur le port **83**
- 	* Le service **percona PMM client**
- 	* Le service **postgresAdmin** sur le port **81**
+	* Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>  sur le port **5432**
+    * Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
+    * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client** </a>
+    * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**
 
 <a href="https://hub.docker.com/r/perconalab/pmm-client">test d'un lien</a>
 
