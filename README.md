@@ -1,8 +1,10 @@
-## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
 ### Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet privé.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
 
-## Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants:
+
+## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
+
+### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants:
 
 * Le réseau privé: **reseauWP**
   * **Serveur Web principal** de l'appliccation sur le port **80**
