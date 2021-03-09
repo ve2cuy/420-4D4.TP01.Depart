@@ -1,18 +1,18 @@
 ### Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet privé.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
 
-
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
 
-### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants:
+### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants
 
 * Le réseau privé: **reseauWP**
   * **Serveur Web principal** de l'appliccation sur le port **80**
     * À partir du contenu du dossier 'contenu-web', de ce dépot Github, ainsi qu'une image personnalisée de *nginx*
-      * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web. 
+      * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * Le SGBD **mariaDB** sur le port **3307**
+    * Les données des BD doivent-être stockées dans le dossier '**bdwp**'
   * Le service **wordpress** sur le port **88**
-    * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a> 
+    * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * L'image wordpress doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
       * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
     * Dépendance:  "mariaDB"  
