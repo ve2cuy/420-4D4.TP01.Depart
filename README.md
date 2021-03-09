@@ -94,6 +94,62 @@
 	PGADMIN_DEFAULT_EMAIL=tp01@420-4d4.com
 	PGADMIN_DEFAULT_PASSWORD=secret
 
+### 'docker-compose up -d --build' donne ceci:
+	√ TP01 % docker-compose up -d --build
+	Creating network "reseauWP" with driver "bridge"
+	Creating network "reseauPMM" with driver "bridge"
+	Building web
+	Step 1/2 : FROM nginx
+	---> 35c43ace9216
+	Step 2/2 : ...
+	---> d0436aa72401
+
+	Successfully built d0436aa72401
+	Successfully tagged alainboudreault/tp01:latest
+	Building wordpress
+	Step 1/8 : FROM wordpress:latest
+	---> bbd9ec4bf176
+	Step 2/8 : COPY simple-style ...
+	---> Using cache
+	---> 1954caa67d52
+	...
+	Step 8/8 : ENV WORDPRESS_TABLE_PREFIX=wp_
+	---> Using cache
+	---> 35cdc0347f1b
+
+	Successfully built 35cdc0347f1b
+	Successfully tagged alainboudreault/wp:latest
+	Creating mariabd             ... done
+	Creating postgres    ... done
+	Creating serveur-pmm ... done
+	Creating pg-admin    ... done
+	Creating TP01        ... done
+	Creating pmm-client-postgres ... done
+	Creating wordpress           ... done
+	Creating phpmyadmin          ... done
+
+### 'docker-compose down' donne ceci:
+	√ TP01 % docker-compose down
+	Stopping phpmyadmin          ... done
+	Stopping wordpress           ... done
+	Stopping pmm-client-postgres ... done
+	Stopping mariabd             ... done
+	Stopping TP01                ... done
+	Stopping serveur-pmm         ... done
+	Stopping postgres            ... done
+	Stopping pg-admin            ... done
+	Removing phpmyadmin          ... done
+	Removing wordpress           ... done
+	Removing pmm-client-postgres ... done
+	Removing mariabd             ... done
+	Removing TP01                ... done
+	Removing serveur-pmm         ... done
+	Removing postgres            ... done
+	Removing pg-admin            ... done
+	Removing network reseauWP
+	Removing network reseauPMM
+
+
 ### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 
