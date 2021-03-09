@@ -15,6 +15,7 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
   
 <br/>
+
 ### Voici la liste des services avec docker-compose ps
 	Name                      Command                  State                  Ports
  	-------------------------------------------------------------------------------------------------
@@ -28,6 +29,7 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
  	wordpress             docker-entrypoint.sh apach ...   Up             0.0.0.0:88->80/tcp  
   
 <br/>
+
 ### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 
