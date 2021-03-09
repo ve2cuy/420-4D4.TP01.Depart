@@ -25,7 +25,10 @@
   * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
     * Dépendances:  "postgres"  
-  
+
+Construction des images personnalisées et démarrage des services de l'application:
+
+	docker-compose up -d --build
   
 <br/>
 
