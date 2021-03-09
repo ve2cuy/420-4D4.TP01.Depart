@@ -17,7 +17,7 @@
     * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * L'image wordpress doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
       * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
-    * Dépendance:  "mariaDB"  
+    * <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#depends_on">Dépendance</a>:  "mariaDB"  
 
   * Le service **phpmyadmin** sur le port **82**
     * Dépendance:  "mariaDB"  
@@ -67,7 +67,7 @@
 	des informations sensibles comme par exemple, des noms d'utilisateurs
 	ou des mots de passe.
 	
-	Utiliser plutot le fichier .env pour créer des variables de substitution.
+	Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#env_file">.env</a> pour créer des variables de substitution.
 
 ### Voici la liste des variables utilisées dans le fichier docker-compose.yml
 	# perconalab/pmm-server
