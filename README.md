@@ -3,7 +3,7 @@
 Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les services suivants:
 
 * Le réseau privé: **reseauWP**
-	* **Serveur Web principal** de l'appliccation sur le port **80**
+	* **Serveur Web principal** de l'appliccation sur le port {red}**80**{red}
 	* Le SGBD **mariaDB** sur le port **3307**
 	* Le service **wordpress** sur le port **88**
 	* Le service **phpmyadmin** sur le port **82**
