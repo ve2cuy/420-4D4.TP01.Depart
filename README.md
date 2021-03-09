@@ -67,7 +67,7 @@
 	des informations sensibles comme par exemple, des noms d'utilisateurs
 	ou des mots de passe.
 	
-	Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#env_file">.env</a> pour créer des variables de substitution.
+Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#env_file">.env</a> pour créer des variables de substitution.
 
 ### Voici la liste des variables utilisées dans le fichier docker-compose.yml
 	# perconalab/pmm-server
