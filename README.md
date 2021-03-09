@@ -157,4 +157,4 @@
 
 ### Voici une vidéo de démonstration de l'application
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+[![Alt text](percona-video.png)](https://youtu.be/zHDHAJRbnA0)
