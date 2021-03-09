@@ -13,13 +13,16 @@
     * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a> 
     * L'image wordpress doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
       * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
+    * Dépendances:  "mariaDB"  
+
   * Le service **phpmyadmin** sur le port **82**
+    * Dépendances:  "mariaDB"  
 
 * Le réseau privé: **reseauPMM**
   * Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>  sur le port **5432**
   * Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
     * Dépendances:  "postgres", "pmm-server"  
-  * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a>
+  * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
     * Dépendances:  "postgres"  
   
@@ -54,7 +57,7 @@
 	des informations sensibles comme par exemple, des noms d'utilisateurs
 	ou des mots de passe.
 	
-	Utiliser plutot le fichier .env.
+	Utiliser plutot le fichier .env pour créer des variables de substitution.
 
 ### Voici la liste des variables utilisées dans le fichier docker-compose.yml
 	# perconalab/pmm-server
