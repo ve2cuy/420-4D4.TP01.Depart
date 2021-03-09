@@ -11,7 +11,7 @@
 version: "3"
 services:
   # ===========================================
-  # Le serveur de bases de données
+  # Le serveur de bases de données mariaDB
   # # Service disponible sur le port 3307
   # ===========================================
   
@@ -19,10 +19,11 @@ services:
 
   
   
-  # ===========================================
-  # Construction et démarrage du serveur Web
+  # ==============================================
+  # Construction et démarrage du serveur Web,
+  # à partir des fichiers du dossier 'contenu-web'
   # # Service disponible sur le port 80
-  # ===========================================
+  # ==============================================
   
   # <-------------------------------------- FIN
 
