@@ -3,7 +3,7 @@
 Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les services suivants:
 
 * Le réseau privé: **reseauWP**
-	* **Serveur Web principal** de l'appliccation sur le port {red}**80**{red}
+	* **Serveur Web principal** de l'appliccation sur le port **80**
 	* Le SGBD **mariaDB** sur le port **3307**
 	* Le service **wordpress** sur le port **88**
 	* Le service **phpmyadmin** sur le port **82**
@@ -17,8 +17,5 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
 <a href="https://hub.docker.com/r/perconalab/pmm-client">test d'un lien</a>
 
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
-
-<span style="color:orange;">Word up</span>
-<span style="color: red;">text</span>
 
 [![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
