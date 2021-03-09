@@ -50,6 +50,8 @@
 
 <br/>
 
+	NOTE: Il ne faut pas inscrire, dans le fichier 'docker-compose.yml' des informations sensibles comme par exemple, des noms d'utilisateurs ou des mots de passe.  Utiliser plutot le fichier .env.
+
 ### Voici la liste des variables utilisées dans le fichier docker-compose.yml
 	# perconalab/pmm-server
 	PMM_USER=
