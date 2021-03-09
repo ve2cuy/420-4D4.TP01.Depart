@@ -26,7 +26,9 @@
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
     * Dépendances:  "postgres"  
 
-Construction des images personnalisées et démarrage des services de l'application:
+<br/>
+
+### Construction des images personnalisées et démarrage des services de l'application:
 
 	docker-compose up -d --build
   
@@ -90,6 +92,8 @@ Construction des images personnalisées et démarrage des services de l'applicat
 ### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 
+<br/>
 
+### Voici une vidéo de démonstration de l'application
 
 [![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
