@@ -13,8 +13,8 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
   * Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
   * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client** </a>
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**
-
-
+  
+  
 ### Voici la liste des services avec docker-compose ps
 	Name                      Command                  State                  Ports           
  	-------------------------------------------------------------------------------------------------
@@ -26,9 +26,8 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
  	postgres              docker-entrypoint.sh postgres    Up             0.0.0.0:5432->5432/tcp     
  	serveur-pmm           /opt/entrypoint.sh               Up (healthy)   443/tcp, 0.0.0.0:83->80/tcp
  	wordpress             docker-entrypoint.sh apach ...   Up             0.0.0.0:88->80/tcp         
-
-
-
+  
+  
 ### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 
