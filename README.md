@@ -26,6 +26,8 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
  	serveur-pmm           /opt/entrypoint.sh               Up (healthy)   443/tcp, 0.0.0.0:83->80/tcp
  	wordpress             docker-entrypoint.sh apach ...   Up             0.0.0.0:88->80/tcp         
 
+
+### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 
 
