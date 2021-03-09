@@ -8,7 +8,7 @@
 
 * Le réseau privé: **reseauWP**
   * **Serveur Web principal** de l'appliccation sur le port **80**
-    * À partir du contenu de ce dépot Github ainsi qu'une image personnalisée de *nginx*
+    * À partir du contenu du dossier 'contenu-web', de ce dépot Github, ainsi qu'une image personnalisée de *nginx*
       * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web. 
   * Le SGBD **mariaDB** sur le port **3307**
   * Le service **wordpress** sur le port **88**
