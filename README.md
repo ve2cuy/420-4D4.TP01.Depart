@@ -4,6 +4,8 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
 
 * Le réseau privé: **reseauWP**
   * **Serveur Web principal** de l'appliccation sur le port **80**
+    * À partir du contenu de ce dépot Github ainsi qu'une image personnalisée de *nginx*
+      * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web. 
   * Le SGBD **mariaDB** sur le port **3307**
   * Le service **wordpress** sur le port **88**
     * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a> 
@@ -42,6 +44,31 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
 	c29c6df663c8   reseauWP           bridge    local
 
 <br/>
+
+### Voici la liste des variables utilisées dans le fichier dicker-compose.yml
+	# perconalab/pmm-server
+	PMM_USER=
+	PMM_PASS=
+
+	# Wordpress
+	WP_HOST=
+	WP_USER=
+	WP_PASSWORD=
+	WP_DB_NAME=
+
+	# MariaDB : La base de données pour WP
+	MYSQL_DATABASE=
+	MYSQL_USER=
+	MYSQL_PASSWORD=
+	MYSQL_ROOT_PASSWORD=
+
+	# PostgreSQL
+	POSTGRES_USER=
+	POSTGRES_PASSWORD=
+
+	# postgresADMIN
+	PGADMIN_DEFAULT_EMAIL=tp01@420-4d4.com
+	PGADMIN_DEFAULT_PASSWORD=secret
 
 ### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
