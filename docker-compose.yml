@@ -1,0 +1,114 @@
+# ------------------------------------------------
+# Projet:   TP01
+# Cours:    420-4D4
+# Fichier:  docker-compose.yml - version de départ
+# Auteur:   
+# Date:     
+# ------------------------------------------------
+# Description:
+# ------------------------------------------------
+# M-A-J:
+version: "3"
+services:
+  # ===========================================
+  # Le serveur de bases de données
+  # # Service disponible sur le port 3307
+  # ===========================================
+  
+  # <-------------------------------------- FIN
+
+  
+  
+  # ===========================================
+  # Construction et démarrage du serveur Web
+  # # Service disponible sur le port 80
+  # ===========================================
+  
+  # <-------------------------------------- FIN
+
+
+
+  # ===========================================
+  # Construction et démarrage de WordPress
+  # Service disponible sur le port 88
+  # ===========================================
+
+    # Exemple d'utilisation des varaibles du fichier .env
+    #    environment:
+    #      - WORDPRESS_DB_HOST=${WP_HOST}
+    #      - WORDPRESS_DB_USER=${WP_USER}
+    #      - WORDPRESS_DB_PASSWORD=${WP_PASSWORD}
+    #      - WORDPRESS_DB_NAME=${WP_DB_NAME}
+
+
+  # <-------------------------------------- FIN
+
+
+
+  # ---- ZONE postgres + PMM
+  # ===========================================
+  # Le serveur d'activités percona PMM
+  # Service disponible sur le port 83
+  # ===========================================
+
+
+  # <-------------------------------------- FIN
+
+  # ===========================================
+  # Le serveur de base de données postgres
+  # Service disponible sur le port 5432
+  # ===========================================
+  
+  
+    # <-------------------------------------- FIN
+
+  
+  
+  # ===========================================
+  # Démarrage de postgresAdmin
+  # Service disponible sur le port 81
+  # ===========================================
+  
+
+  # <-------------------------------------- FIN
+
+
+
+  # ================================================
+  # Le client PMM pour la base de données postgress
+  # ================================================
+  pmm-client-postgres:
+    image: "perconalab/pmm-client:dev-latest"
+    container_name: pmm-client-postgres
+      # Voici les variables nécessaires au fonctionnement du client PMM
+    #      - PMM_SERVER=pmm-server:443
+    #      - PMM_USER=
+    #      - PMM_PASSWORD=
+    #      - DB_TYPE=postgresql
+    #      - DB_HOST=
+    #      - DB_PORT=
+    #      - DB_USER=${POSTGRES_USER}
+    #      - DB_PASSWORD=${POSTGRES_PASSWORD}
+  
+  
+  # <-------------------------------------- FIN
+
+
+
+  # ===========================================
+  # Démarrage de phpMyAdmin
+  # Service disponible sur le port 82
+  # ===========================================
+    # NOTE: Il ne faut pas utiliser la méthode: PMA_ARBITRARY=1
+
+
+  # <-------------------------------------- FIN
+
+
+
+# ===========================================
+# Les réseaux de l'application
+# ===========================================
+
+
+# <-------------------------------------- FIN

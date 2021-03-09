@@ -1,0 +1,1 @@
+# Fichier de départ pour le 'build' de l'application wordpress
