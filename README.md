@@ -17,3 +17,9 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
 <a href="https://hub.docker.com/r/perconalab/pmm-client">test d'un lien</a>
 
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
