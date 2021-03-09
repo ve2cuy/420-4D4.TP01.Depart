@@ -14,7 +14,7 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
   * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client** </a>
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**
 
-### Voici la liste des services obtenue avec docker-compose ps
+### Voici la liste des services avec docker-compose ps
 	Name                      Command                  State                  Ports           
  	-------------------------------------------------------------------------------------------------
  	TP01                  /docker-entrypoint.sh ngin ...   Up             0.0.0.0:80->80/tcp         
