@@ -1,17 +1,20 @@
-## ÉNONCÉ DU TRAVAIL PRATIQUE 01
+## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
 
-Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les services suivants:
+Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants:
 
 * Le réseau privé: **reseauWP**
   * **Serveur Web principal** de l'appliccation sur le port **80**
   * Le SGBD **mariaDB** sur le port **3307**
   * Le service **wordpress** sur le port **88**
+    * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a> 
+    * L'image wordpress doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
+      * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
   * Le service **phpmyadmin** sur le port **82**
 
 * Le réseau privé: **reseauPMM**
   * Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>  sur le port **5432**
   * Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
-  * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client** </a>
+  * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a>
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
   
 <br/>
