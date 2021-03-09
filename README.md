@@ -16,7 +16,7 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
   
 <br/>
 
-### Voici la liste des services avec docker-compose ps
+### Voici la liste, obtenue avec docker-compose ps, des services:
 	Name                      Command                  State                  Ports
  	-------------------------------------------------------------------------------------------------
  	TP01                  /docker-entrypoint.sh ngin ...   Up             0.0.0.0:80->80/tcp
@@ -30,7 +30,7 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
   
 <br/>
 
-### Voici la liste des réseaux
+### Voici la liste des réseaux:
 	NETWORK ID     NAME               DRIVER    SCOPE
 	84da018281e3   bridge             bridge    local
 	5b64d4b7c1d2   host               host      local
