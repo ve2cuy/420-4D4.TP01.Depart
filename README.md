@@ -1,6 +1,8 @@
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
+### Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet privé.
+### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
 
-Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants:
+## Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants:
 
 * Le réseau privé: **reseauWP**
   * **Serveur Web principal** de l'appliccation sur le port **80**
@@ -16,8 +18,11 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
 * Le réseau privé: **reseauPMM**
   * Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>  sur le port **5432**
   * Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
+    * Dépendances:  "postgres", "pmm-server"  
   * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a>
   * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
+    * Dépendances:  "postgres"  
+  
   
 <br/>
 
@@ -45,7 +50,7 @@ Il faut démarrer, avec **docker-compose**, une application multi-services qui p
 
 <br/>
 
-### Voici la liste des variables utilisées dans le fichier dicker-compose.yml
+### Voici la liste des variables utilisées dans le fichier docker-compose.yml
 	# perconalab/pmm-server
 	PMM_USER=
 	PMM_PASS=
