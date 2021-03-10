@@ -42,7 +42,7 @@
     * (2.4.0) Port **81**  
     * (2.4.1) Dépendance:  "postgres"  
 
- * (3) Il faut **rédiger un fichier README.md** expliquant la démarche utilisée, recherches, expérimentations, ..., pour la mise en place du service ´**percona PMM Server** ainsi que pour le **client PMM** de type **postgreSQL**´.
+ * (3) Il faut **rédiger un fichier README.md** expliquant la démarche utilisée, recherches, expérimentations, ..., pour la mise en place du service ´**percona PMM Server** ainsi que le **client PMM** de type **postgreSQL**´.
 <br/>
 
 ### Construction des images personnalisées et démarrage des services de l'application:
