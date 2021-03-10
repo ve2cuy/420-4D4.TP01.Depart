@@ -20,7 +20,8 @@
   * (1.3) Le service **wordpress** sur le port **88**
     * L'image *wordpress* doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * L'image *wordpress* doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
-      * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
+      * Il faudra donc construire une image personnalisée de *wordpress* (docker build)
+        * Qui renseigne aussi le préfixe des tables à '**votreMatricule**' 
     * <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#depends_on">Dépendance</a>:  "mariaDB"  
   * (1.4) Le service **phpmyadmin** sur le port **82**
     * Dépendance:  "mariaDB"  
