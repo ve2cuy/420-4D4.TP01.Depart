@@ -1,4 +1,4 @@
-## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet privé.
+## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet >>>PRIVÉ<<<.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
 	NOTE: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique. 
@@ -9,7 +9,7 @@
 
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version préliminaire
 
-### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants
+### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose les services suivants
 
 * (1) Le réseau privé: **reseauWP** offrant les services:
   * (1.1) **Serveur Web (nginx) principal** de l'application 
@@ -18,7 +18,7 @@
       * (1.1.1.1) Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * (1.2) Le SGBD **mariaDB**
     * (1.2.0) Port **3307**
-    * (1.2.1) Les données des BD de *mariaDB* doivent-être stockées dans le dossier '**bdwp**'
+    * (1.2.1) Les données des BD de *mariaDB* doivent-être stockées dans le dossier local '**bdwp**'
   * (1.3) Le service **wordpress**
     * (1.3.0) Port **88**
     * (1.3.1) L'image *wordpress* doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
@@ -35,36 +35,40 @@
     * (2.1.0) Port **5432**
   * (2.2) Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a>
     * (2.2.0) Port **83**
-    * (2.2.1) Dépendances:  "postgres"  
+    * () <a href="https://www.percona.com/doc/percona-monitoring-and-management/2.x/setting-up/server/index.html">Docum de percona</a> 
   * (2.3) Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
     * (2.3.1) Dépendances:  "postgres", "pmm-server"  
   * (2.4) Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a>
     * (2.4.0) Port **81**  
     * (2.4.1) Dépendance:  "postgres"  
 
- * (3) Il faut **rédiger un fichier README.md** expliquant la démarche utilisée, recherches, expérimentations, ..., pour la mise en place du service ´**percona PMM Server**´.
+ * (3) Il faut **rédiger un fichier README.md** expliquant la démarche utilisée, recherches, expérimentations, ..., pour la mise en place du service ´**percona PMM Server** ainsi que le **client PMM** de type **postgreSQL**´.
 <br/>
 
 ### Construction des images personnalisées et démarrage des services de l'application:
 
 	docker-compose up -d --build
-  
+
+**NOTE:** Pour '**docker build**' et '**docker-compose up -d --build**', il faut utiliser les noms par défaut.  C-A-D, '**Dockerfile**' et '**docker-compose.yml**'
 <br/>
 
-### Voici l'écran principal de l'application (service nginx sur le port 80)
+### E1 - Écran principal de l'application - service nginx sur le port 80
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 **NOTE:** Vous devez modifier le fichier *index.html* de départ pour que les services soient accessibles via le logo de application.
 
-### Voici l'écran principal du service wordpress - sur le port 88)
+### E2 - Écran principal du service wordpress - sur le port 88
 <a href="#">![Écran de wordpress](wp-page1.png)</a>
 
-### Voici l'écran principal du service postgressAdmin4 - sur le port 81)
+### E3 - Écran principal du service postgressAdmin4 - sur le port 81
 <a href="#">![Écran de postgressAdmin4](pgAdmin4-page1.png)</a>
 
-### Voici l'écran principal du service percona PMM Server - sur le port 83)
+### E4 - Écran principal du service percona PMM Server - sur le port 83
 <a href="#">![Écran de percona PMM Server](percona-page1.png)</a>
 
-### Voici l'écran principal du service phpmyadmin - sur le port 82)
+### E5 - Écran du service percona PMM avec stat de prostgres
+<a href="#">![Écran de percona PMM stat prostgres](percona-stat.png)</a>
+
+### E6 - Écran principal du service phpmyadmin - sur le port 82
 <a href="#">![Écran de phpmyadmin](phymyadmin-page1.png)</a>
 
 <br/>
@@ -183,8 +187,21 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 
 ### Voici une vidéo de démonstration de l'application
 
-[![Alt text](percona-video.png)](https://youtu.be/zHDHAJRbnA0)
+[![Alt text](percona-video.png)](https://youtu.be/syTg4Bpz3os)
 
 <hr/>
 
-Document rédigé par Alain Boudreault - version 2021.03.09.05
+## Grille de correction
+
+| Étape | Description                                                                     | Poids |
+|-------|---------------------------------------------------------------------------------|-------|
+|   1   | reseauWP + services                                                             |  10   |
+|   2   | reseauPMM + services                                                            |  17   |
+|   3   | README.md                                                                       |  03   |
+| Total | ------------------------------------------------------------------------------> |  30   |
+
+**Note:** Il y aura plus de détails dans la grille de correction d'ici quelques jours.
+
+<hr/>
+
+Document rédigé par Alain Boudreault - version 2021.03.10.04
