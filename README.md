@@ -188,11 +188,13 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 <hr/>
 ## Grille de correction
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Étape | Description                                                                     | Poids |
+|-------|---------------------------------------------------------------------------------|-------|
+|       |                                                                                 |       |
+|       |                                                                                 |       |
+|       |                                                                                 |       |
+| Total | ------------------------------------------------------------------------------> |  30   |
+
 <hr/>
 
 Document rédigé par Alain Boudreault - version 2021.03.09.05
