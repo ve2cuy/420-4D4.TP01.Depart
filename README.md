@@ -9,28 +9,27 @@
 
 ### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants
 
-* Le réseau privé: **reseauWP**
-  * **Serveur Web principal** de l'application sur le port **80**
+* (1) Le réseau privé: **reseauWP** offrant les services:
+  * (1.1) **Serveur Web (nginx) principal** de l'application sur le port **80**
     * À partir du contenu du dossier 'contenu-web', de ce dépot Github, ainsi qu'une image personnalisée de *nginx*
       * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
-  * Le SGBD **mariaDB** sur le port **3307**
+  * (1.2) Le SGBD **mariaDB** sur le port **3307**
     * Les données des BD de *mariaDB* doivent-être stockées dans le dossier '**bdwp**'
-  * Le service **wordpress** sur le port **88**
+  * (1.3)Le service **wordpress** sur le port **88**
     * L'image *wordpress* doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * L'image *wordpress* doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
       * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
     * <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#depends_on">Dépendance</a>:  "mariaDB"  
-
-  * Le service **phpmyadmin** sur le port **82**
+  * (1.4) Le service **phpmyadmin** sur le port **82**
     * Dépendance:  "mariaDB"  
 
-* Le réseau privé: **reseauPMM**
-  * Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>  sur le port **5432**
-  * Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
+* (2) Le réseau privé: **reseauPMM** offrant les services:
+  * (2.1) Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>  sur le port **5432**
+  * (2.2) Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a> sur le port **83**
     * Dépendances:  "postgres"  
-  * Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
+  * (2.3) Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
     * Dépendances:  "postgres", "pmm-server"  
-  * Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
+  * (2.4) Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
     * Dépendance:  "postgres"  
 
 <br/>
