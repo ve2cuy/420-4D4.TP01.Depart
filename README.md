@@ -35,7 +35,6 @@
     * (2.1.0) Port **5432**
   * (2.2) Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a>
     * (2.2.0) Port **83**
-    * (2.2.1) Dépendance:  "postgres"
     * () <a href="https://www.percona.com/doc/percona-monitoring-and-management/2.x/setting-up/server/index.html">Docum de percona</a> 
   * (2.3) Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
     * (2.3.1) Dépendances:  "postgres", "pmm-server"  
