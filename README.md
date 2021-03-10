@@ -49,7 +49,8 @@
 ### Construction des images personnalisées et démarrage des services de l'application:
 
 	docker-compose up -d --build
-  
+
+**NOTE:** Pour *docker build* et *docker-compose up*, il faut utiliser les noms par défaut.  C-A-D, **Dockerfile* et **docker-compose.yml**
 <br/>
 
 ### E1 - Écran principal de l'application - service nginx sur le port 80
