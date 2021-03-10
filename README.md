@@ -35,7 +35,7 @@
     * (2.1.0) Port **5432**
   * (2.2) Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a>
     * (2.2.0) Port **83**
-    * (2.2.1) Dépendances:  "postgres"  
+    * (2.2.1) Dépendance:  "postgres"  
   * (2.3) Le service <a href="https://hub.docker.com/r/perconalab/pmm-client">**percona PMM client**</a> adapté au SGBD postgresSQL, dans le but d'obtenir des statistiques d'utilisation du SGBD via l'application 'percona PMM Server'.
     * (2.3.1) Dépendances:  "postgres", "pmm-server"  
   * (2.4) Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a>
@@ -191,10 +191,11 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 
 | Étape | Description                                                                     | Poids |
 |-------|---------------------------------------------------------------------------------|-------|
-|       |                                                                                 |       |
-|       |                                                                                 |       |
-|       |                                                                                 |       |
+|   1   | reseauWP + services                                                             |  10   |
+|   2   | reseauPMM + services                                                            |  17   |
+|   3   | README.md                                                                       |  03   |
 | Total | ------------------------------------------------------------------------------> |  30   |
+**Note:** Il y aura plus de détails dans la grille de correction d'ici quelques jours.
 
 <hr/>
 
