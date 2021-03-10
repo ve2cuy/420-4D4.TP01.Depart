@@ -5,7 +5,7 @@
 	
 	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
 
-## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
+## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version préliminaire
 
 ### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants
 
