@@ -2,6 +2,8 @@
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
 	NOTE: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique. 
+	
+	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
 
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30%
 
@@ -33,13 +35,16 @@
 
 <br/>
 
-### Voici l'écran principal de l'application (service nginx sur port 80)
-<a href="#">![Écran de l'application](ecran-depart.png)</a>
-
 ### Construction des images personnalisées et démarrage des services de l'application:
 
 	docker-compose up -d --build
   
+<br/>
+
+### Voici l'écran principal de l'application (service nginx sur port 80)
+<a href="#">![Écran de l'application](ecran-depart.png)</a>
+
+
 <br/>
 
 ### Voici la liste, obtenue avec docker-compose ps, des services:
