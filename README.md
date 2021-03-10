@@ -14,7 +14,7 @@
     * À partir du contenu du dossier 'contenu-web', de ce dépot Github, ainsi qu'une image personnalisée de *nginx*
       * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * Le SGBD **mariaDB** sur le port **3307**
-    * Les données des BD doivent-être stockées dans le dossier '**bdwp**'
+    * Les données des BD de mariaDb doivent-être stockées dans le dossier '**bdwp**'
   * Le service **wordpress** sur le port **88**
     * L'image wordpress doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * L'image wordpress doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
