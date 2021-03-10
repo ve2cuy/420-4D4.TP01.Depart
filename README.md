@@ -32,7 +32,7 @@
   * (2.4) Le service <a href="https://hub.docker.com/r/dpage/pgadmin4">**postgresAdmin**</a> sur le port **81**  
     * Dépendance:  "postgres"  
 
- * (3) Il faut **rédiger un fichier README.md** expliquant la démarche utilisé, recherches, expérimentations, ..., pour la mise en place du service ´**percona PMM Server**´.
+ * (3) Il faut **rédiger un fichier README.md** expliquant la démarche utilisée, recherches, expérimentations, ..., pour la mise en place du service ´**percona PMM Server**´.
 <br/>
 
 ### Construction des images personnalisées et démarrage des services de l'application:
