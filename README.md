@@ -64,7 +64,7 @@
 ### Voici l'écran principal du service percona PMM Server - sur le port 83
 <a href="#">![Écran de percona PMM Server](percona-page1.png)</a>
 
-### Voici l'écran principal du service phpmyadmin - sur le port 82)
+### Voici l'écran principal du service phpmyadmin - sur le port 82
 <a href="#">![Écran de phpmyadmin](phymyadmin-page1.png)</a>
 
 <br/>
