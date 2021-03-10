@@ -9,7 +9,7 @@
 
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version préliminaire
 
-### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants
+### Il faut démarrer, avec **docker-compose -d --build**, une application multi-services qui propose les services suivants
 
 * (1) Le réseau privé: **reseauWP** offrant les services:
   * (1.1) **Serveur Web (nginx) principal** de l'application 
