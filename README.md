@@ -51,17 +51,17 @@
   
 <br/>
 
-### Voici l'écran principal de l'application (service nginx sur le port 80)
+### Voici l'écran principal de l'application - service nginx sur le port 80
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 **NOTE:** Vous devez modifier le fichier *index.html* de départ pour que les services soient accessibles via le logo de application.
 
-### Voici l'écran principal du service wordpress - sur le port 88)
+### Voici l'écran principal du service wordpress - sur le port 88
 <a href="#">![Écran de wordpress](wp-page1.png)</a>
 
-### Voici l'écran principal du service postgressAdmin4 - sur le port 81)
+### Voici l'écran principal du service postgressAdmin4 - sur le port 81
 <a href="#">![Écran de postgressAdmin4](pgAdmin4-page1.png)</a>
 
-### Voici l'écran principal du service percona PMM Server - sur le port 83)
+### Voici l'écran principal du service percona PMM Server - sur le port 83
 <a href="#">![Écran de percona PMM Server](percona-page1.png)</a>
 
 ### Voici l'écran principal du service phpmyadmin - sur le port 82)
