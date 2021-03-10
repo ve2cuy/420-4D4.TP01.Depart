@@ -18,7 +18,7 @@
       * (1.1.1.1) Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * (1.2) Le SGBD **mariaDB**
     * (1.2.0) Port **3307**
-    * (1.2.1) Les données des BD de *mariaDB* doivent-être stockées dans le dossier '**bdwp**'
+    * (1.2.1) Les données des BD de *mariaDB* doivent-être stockées dans le dossier local '**bdwp**'
   * (1.3) Le service **wordpress**
     * (1.3.0) Port **88**
     * (1.3.1) L'image *wordpress* doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
