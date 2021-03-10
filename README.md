@@ -161,3 +161,6 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 ### Voici une vidéo de démonstration de l'application
 
 [![Alt text](percona-video.png)](https://youtu.be/zHDHAJRbnA0)
+
+<hr/>
+##### Document rédigé par Alain Boudreault - version 2021.03.09.05
