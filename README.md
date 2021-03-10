@@ -15,7 +15,7 @@
       * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * (1.2) Le SGBD **mariaDB** sur le port **3307**
     * Les données des BD de *mariaDB* doivent-être stockées dans le dossier '**bdwp**'
-  * (1.3)Le service **wordpress** sur le port **88**
+  * (1.3) Le service **wordpress** sur le port **88**
     * L'image *wordpress* doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * L'image *wordpress* doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
       * Il faudra donc construire une image personnalisée de *wordpress* (docker build)  
