@@ -186,6 +186,7 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 [![Alt text](percona-video.png)](https://youtu.be/zHDHAJRbnA0)
 
 <hr/>
+
 ## Grille de correction
 
 | Étape | Description                                                                     | Poids |
