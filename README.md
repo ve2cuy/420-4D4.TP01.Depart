@@ -8,7 +8,7 @@
 ### Il faut démarrer, avec **docker-compose**, une application multi-services qui propose les micro-services suivants
 
 * Le réseau privé: **reseauWP**
-  * **Serveur Web principal** de l'appliccation sur le port **80**
+  * **Serveur Web principal** de l'application sur le port **80**
     * À partir du contenu du dossier 'contenu-web', de ce dépot Github, ainsi qu'une image personnalisée de *nginx*
       * Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * Le SGBD **mariaDB** sur le port **3307**
@@ -32,6 +32,9 @@
     * Dépendance:  "postgres"  
 
 <br/>
+
+### Voici l'écran principal de l'application (service nginx sur port 80)
+<a href="#">![Écran de l'application](ecran-depart.png)</a>
 
 ### Construction des images personnalisées et démarrage des services de l'application:
 
@@ -148,10 +151,6 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 	Removing pg-admin            ... done
 	Removing network reseauWP
 	Removing network reseauPMM
-
-
-### Voici l'écran principal de l'application (service nginx sur port 80)
-<a href="#">![Écran de l'application](ecran-depart.png)</a>
 
 <br/>
 
