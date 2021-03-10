@@ -43,7 +43,7 @@
 
 ### Voici l'écran principal de l'application (service nginx sur port 80)
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
-
+**NOTE:** Vous devez modifier le fichier *index.html* de départ pour que les services soient accessibles via le logo de application.
 
 <br/>
 
