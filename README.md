@@ -65,7 +65,10 @@
 ### E4 - Écran principal du service percona PMM Server - sur le port 83
 <a href="#">![Écran de percona PMM Server](percona-page1.png)</a>
 
-### E5 - Écran principal du service phpmyadmin - sur le port 82
+### E5 - Écran du service percona PMM avec stat de prostgres
+<a href="#">![Écran de percona PMM stat prostgres](percona-stat.png)</a>
+
+### E6 - Écran principal du service phpmyadmin - sur le port 82
 <a href="#">![Écran de phpmyadmin](phymyadmin-page1.png)</a>
 
 <br/>
