@@ -49,7 +49,7 @@
 
 	docker-compose up -d --build
 
-**NOTE:** Pour '**docker build**' et '**docker-compose up -d --build**', il faut utiliser les noms par défaut.  C-A-D, '**Dockerfile**' et '**docker-compose.yml**'
+**NOTE:** Pour '**docker build**' et '**docker-compose up -d --build**', il faut utiliser le nom des fichiers par défaut.  C-A-D, '**Dockerfile**' et '**docker-compose.yml**'
 <br/>
 
 ### E1 - Écran principal de l'application - service nginx sur le port 80
