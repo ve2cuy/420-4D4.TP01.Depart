@@ -9,9 +9,9 @@
 
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version préliminaire
 
-### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose les services suivants
+### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose,
 
-* (1) Le réseau privé: **reseauWP** offrant les services:
+* (1) Le réseau privé: **reseauWP** offrant **les services**:
   * (1.1) **Serveur Web (nginx) principal** de l'application 
     * (1.1.0) Port **80**
     * (1.1.1) À partir du contenu du dossier 'contenu-web', de ce dépot Github, ainsi qu'une image personnalisée de *nginx*
@@ -30,7 +30,7 @@
     * (1.4.0) Port **82**
     * (1.4.1) Dépendance:  "mariaDB"  
 
-* (2) Le réseau privé: **reseauPMM** offrant les services:
+* (2) Le réseau privé: **reseauPMM** offrant **les services**:
   * (2.1) Le SGBD <a href="https://hub.docker.com/_/postgres">**postgreSQL**</a>
     * (2.1.0) Port **5432**
   * (2.2) Le service <a href="https://hub.docker.com/r/percona/pmm-server">**percona PMM Server**</a>
