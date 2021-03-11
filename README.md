@@ -26,7 +26,7 @@
       * (1.3.1.1) Il faudra donc construire une image personnalisée de *wordpress* (docker build)
         * (1.3.1.1.1) Qui renseigne aussi le préfixe des tables à '**votreMatricule_**' 
     * (1.3.3) <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#depends_on">Dépendance</a>:  "mariaDB"  
-  * (1.4) Le service **phpmyadmin**
+  * (1.4) Le service **phpMyAdmin**
     * (1.4.0) Port **http://localhost:82**
     * (1.4.1) Dépendance:  "mariaDB"  
 
