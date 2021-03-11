@@ -34,7 +34,7 @@ services:
   # Service disponible sur le port 88
   # ===========================================
 
-    # Exemple d'utilisation des varaibles du fichier .env
+    # Exemple d'utilisation des variables du fichier .env
     #    environment:
     #      - WORDPRESS_DB_HOST=${WP_HOST}
     #      - WORDPRESS_DB_USER=${WP_USER}
