@@ -191,7 +191,7 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 
 <hr/>
 
-## Grille de correction
+## Grille de la correction
 
 | Étape | Description                                                                     | Poids |
 |-------|---------------------------------------------------------------------------------|-------|
@@ -200,7 +200,7 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 |   3   | README.md                                                                       |  03   |
 | Total | ------------------------------------------------------------------------------> |  30   |
 
-**Note:** Il y aura plus de détails dans la grille de correction d'ici quelques jours.
+**Note:** Il y aura plus de détails, dans la grille de la correction, d'ici quelques jours.
 
 <hr/>
 
