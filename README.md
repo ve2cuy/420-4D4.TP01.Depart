@@ -56,7 +56,7 @@
 <a href="#">![Écran de l'application](ecran-depart.png)</a>
 **NOTE:** Vous devez modifier le fichier *index.html* de départ pour que les services soient accessibles via le logo de application.
 
-### E2 - Écran principal du service wordpress - sur le port 88
+### E2 - Écran principal du service Wordpress - sur le port 88
 <a href="#">![Écran de wordpress](wp-page1.png)</a>
 
 ### E3 - Écran principal du service postgressAdmin4 - sur le port 81
