@@ -15,7 +15,7 @@
 	mariaDB et prostgreSQL, phpMyAdmin, Wordpress, postgresAdmin, 
 	percona PMM et perconna client PMM pour postgres.
 
-NOTE:  Il y a une vidéo de démonstration au bas de ce document.
+**NOTE:**  Il y a une vidéo de démonstration de l'application au bas de ce document.
 
 ## Voici les détails:
 
