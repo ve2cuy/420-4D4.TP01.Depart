@@ -59,6 +59,11 @@
 	docker-compose up -d --build
 
 **NOTE:** Pour '**docker build**' et '**docker-compose up -d --build**', il faut utiliser le nom des fichiers par défaut.  C-A-D, '**Dockerfile**' et '**docker-compose.yml**'
+
+<br/>
+
+**NOTE:** Si le Dockerfile d'une image à construire est dans un autre dossier, il faudra alors fixer le contexte dans le fichier docker-compose.yml.  Voir 'docker-compose context'.
+
 <br/>
 
 ### E1 - Écran principal de l'application - service nginx sur le port 80
