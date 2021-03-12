@@ -9,7 +9,13 @@
 
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version préliminaire
 
-### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose,
+### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose;
+
+	Deux réseaux, un site Web principal, deux systèmes de gestion de bases de données (SGBD) - mariaDB et prostgreSQL, phpMyAdmin, Wordpress, postgresAdmin, percona PMM et perconna client PMM pour postgres.
+
+NOTE:  Il y a une vidéo de démonstration au bas de ce document.
+
+## Voici les détails:
 
 * (1) Le réseau privé: **reseauWP** offrant **les services**:
   * (1.1) **Serveur Web (nginx) principal** de l'application 
