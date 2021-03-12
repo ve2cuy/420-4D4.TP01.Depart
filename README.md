@@ -8,6 +8,7 @@
 <hr/>
 
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version préliminaire
+## Évaluation du temps de réalisation: 4 à 8 heures
 
 ### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose;
 
