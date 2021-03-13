@@ -13,7 +13,7 @@
 ### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose;
 
 	Deux réseaux, un site Web principal, deux systèmes de gestion de bases de données (SGBD)
-	mariaDB et prostgreSQL, phpMyAdmin, Wordpress (avec un thème et un plugin personnalisés),
+	mariaDB et postgreSQL, phpMyAdmin, Wordpress (avec un thème et un plugin personnalisés),
 	postgresAdmin, percona PMM et un client percona PMM pour postgres.
 
 **NOTE:**  Il y a une vidéo de démonstration de l'application au bas de ce document.
