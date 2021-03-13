@@ -117,7 +117,7 @@
 	
 Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#env_file">.env</a> pour créer des variables de substitution.
 
-### Voici la liste des variables utilisées dans le fichier docker-compose.yml
+### Voici la liste des variables renseignées par mon fichier .env
 	# perconalab/pmm-server
 	PMM_USER=
 	PMM_PASS=
