@@ -141,9 +141,8 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 	# postgresADMIN
 	PGADMIN_DEFAULT_EMAIL=tp01@420-4d4.com
 	PGADMIN_DEFAULT_PASSWORD=secret
-	
-
-	**NOTE:** Depuis la version **RC1** de ce dépôt, Il est devenu indispensable d'utiliser
+.
+	**NOTE:** Depuis la version **RC1** de ce dépôt, Il est devenu INDISPENSABLE d'utiliser
 	les variables de substitution de mon fichier .env.
 
 ### 'docker-compose up -d --build' donne ceci:
