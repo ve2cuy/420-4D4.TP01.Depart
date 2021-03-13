@@ -24,7 +24,7 @@
   * (1.1) **Serveur Web (nginx) principal** de l'application 
     * (1.1.0) Port **http://localhost:80**
     * (1.1.1) Il faut bâtir une image perso, à partir du contenu du dossier **'contenu-web'** de ce **dépot Github** et d'une image *nginx*
-      * (1.1.1.1) Il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
+      * (1.1.1.1) Pré-requis, il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * (1.2) Le SGBD **mariaDB**
     * (1.2.0) Port **TCP:3307**
     * (1.2.1) Les données des BD de *mariaDB* doivent-être stockées dans le dossier local '**bdwp**'
