@@ -22,7 +22,7 @@
 
 * (1) Le réseau privé: **reseauWP** offrant **les services**:
   * (1.1) **Serveur Web (nginx) principal** de l'application 
-    * (1.1.0) Port **http://localhost:80**
+    * (1.1.0) Port **htp://localhost:80**
     * (1.1.1) Il faut bâtir une image perso, à partir du contenu du dossier **'contenu-web'** de ce **dépot Github** et d'une image *nginx*
       * (1.1.1.1) Pré-requis, il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * (1.2) Le SGBD **mariaDB**
