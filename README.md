@@ -32,7 +32,7 @@
     * (1.3.0) Port **http://localhost:88**
     * (1.3.1) L'image *Wordpress* doit contenir le thème <a href="https://wordpress.org/themes/simple-style/">simple-style</a>
     * (1.3.2) L'image *Wordpress* doit contenir le plugin <a href="https://wordpress.org/plugins/code-prettify/">code-prettify</a>
-      * (1.3.2.1) Il faudra donc construire une image personnalisée de *wordpress* (docker build)
+      * (1.3.2.1) Il faudra donc construire une image personnalisée de *wordpress* (build: ...)
         * (1.3.2.1.1) Qui renseigne aussi le préfixe des tables à '**votreMatricule_**' 
     * (1.3.3) <a href="https://docs.docker.com/compose/compose-file/compose-file-v3/#depends_on">Dépendance</a>:  "mariaDB"  
   * (1.4) Le service **phpMyAdmin**
