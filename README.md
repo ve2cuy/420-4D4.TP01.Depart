@@ -66,7 +66,7 @@
 
 <br/>
 
-**NOTE.4 !IMPORTANTE:** Si le Dockerfile d'une image à construire est dans un autre dossier, il faudra alors fixer le contexte dans le fichier *docker-compose.yml*.  Voir '**docker-compose context**'.
+**NOTE.4 !IMPORTANTE:** Si le Dockerfile d'une image à construire est dans un autre dossier, il faudra alors fixer le contexte dans le fichier **docker-compose.yml**.  Voir '**docker-compose context**'.
 
 <br/>
 
