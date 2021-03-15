@@ -1,7 +1,9 @@
 ## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet <PRIVÉ>.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
 	NOTE: En clonant ce projet, vous obtiendrez les fichiers 
-	et les dossiers de départ du travail pratique. 
+	et les dossiers de départ du travail pratique.
+	
+	NOTE: Le dossier local des BD n´est pas dans le projet de départ, c´est à vous de le fournir.
 	
 	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
 
@@ -24,7 +26,7 @@
   * (1.1) **Serveur Web (nginx) principal** de l'application 
     * (1.1.0) Port **http: //localhost:80**
     * (1.1.1) Il faut bâtir une image perso, à partir du contenu du dossier **'contenu-web'** de ce **dépot Github** et d'une image *nginx*
-      * (1.1.1.1) Pré-requis, il faut éditer le fichier *index.html* pour renseigner correctement les images et les liens du site web.
+      * (1.1.1.1) Pré-requis, il faut éditer, localement, le fichier *index.html* pour renseigner correctement les images et les liens du site web.
   * (1.2) Le SGBD **mariaDB**
     * (1.2.0) Port **TCP:3307**
     * (1.2.1) Les données des BD de *mariaDB* doivent-être stockées dans le dossier local '**bdwp**'
