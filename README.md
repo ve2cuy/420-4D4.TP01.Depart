@@ -1,9 +1,9 @@
 ## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet <PRIVÉ>.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca 
-	NOTE: En clonant ce projet, vous obtiendrez les fichiers 
+	NOTE.1: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique.
 	
-	NOTE: Le dossier local des BD n´est pas dans le projet de départ, c´est à vous de le fournir.
+	NOTE.2: Le dossier local des BD n´est pas dans le projet de départ, c´est à vous de le fournir.
 	
 	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
 
@@ -18,7 +18,7 @@
 	mariaDB et postgreSQL, phpMyAdmin, Wordpress (avec un thème et un plugin personnalisés),
 	postgresAdmin, percona PMM et un client percona PMM pour postgres.
 
-**NOTE:**  Il y a une vidéo de démonstration de l'application au bas de ce document.
+**NOTE.3:**  Il y a une vidéo de démonstration de l'application au bas de ce document.
 
 ## Voici les détails:
 
@@ -64,7 +64,7 @@
 
 <br/>
 
-**NOTE IMPORTANTE:** Si le Dockerfile d'une image à construire est dans un autre dossier, il faudra alors fixer le contexte dans le fichier docker-compose.yml.  Voir 'docker-compose context'.
+**NOTE.4 !IMPORTANTE:** Si le Dockerfile d'une image à construire est dans un autre dossier, il faudra alors fixer le contexte dans le fichier docker-compose.yml.  Voir 'docker-compose context'.
 
 <br/>
 
