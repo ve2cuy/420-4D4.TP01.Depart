@@ -8,6 +8,8 @@
 	NOTE.2: Le dossier local des BD n´est pas dans le projet de départ, c´est à vous de le fournir.
 	
 	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
+	
+	NOTE.2.1 - L'accès de départ de percona est admin:admin.
 
 <hr/>
 
