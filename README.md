@@ -13,7 +13,7 @@
 
 <hr/>
 
-## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version RC1.4
+## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version 1.0
 ## Estimation approximative du temps de réalisation du travail: Pi à Pi * 2,6 HEURES.
 
 ### Il faut démarrer, avec *'docker-compose -d --build*', une application multi-services qui propose;
