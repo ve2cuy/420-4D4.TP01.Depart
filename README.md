@@ -9,7 +9,7 @@
 	
 	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
 	
-	NOTE.2.1 - L'accès de départ de percona est admin:admin.
+	NOTE.2.1 - L'accès de départ de percona est admin:admin
 
 <hr/>
 
