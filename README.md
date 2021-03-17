@@ -1,6 +1,6 @@
 ## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet <PRIVÉ>.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca
-**À ce jour, j´ai reçu quatre (4) invitations; Alkorus, Excelsis27, lordcorb, Karim-debug **
+À ce jour, j´ai reçu quatre (4) invitations; **Alkorus, Excelsis27, lordcorb, Karim-debug**
 
 	NOTE.1: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique.
