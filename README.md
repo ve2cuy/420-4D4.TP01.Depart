@@ -5,7 +5,8 @@
 	NOTE.1: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique.
 	
-	NOTE.2: Le dossier local des BD n´est pas dans le projet de départ, c´est à vous de le fournir.
+	NOTE.2: Le dossier local des BD n´est pas dans le projet de départ,
+	c´est à vous de le fournir.
 	
 	git clone https://github.com/ve2cuy/420-4D4.TP01.Depart
 	
