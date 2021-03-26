@@ -1,6 +1,6 @@
 ## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet <PRIVÉ>.
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca
-### Attention - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
+### ATTENTION - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
 
 À ce jour, j´ai reçu cinq (5) invitations; **NathanScolaire, Alkorus, Excelsis27, lordcorb, Karim-debug**
 
