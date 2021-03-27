@@ -1,5 +1,5 @@
 ## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet <PRIVÉ>.
-### Il faut inviter votre enseignant, comme collaborateur (ve2cuy) et lui envoyer, lorsque le projet sera terminé, le lien du projet à aboudrea@cstj.qc.ca
+### Il faut inviter votre enseignant comme collaborateur (ve2cuy) et lui envoyer, lorsque le projet sera terminé, le lien du projet à aboudrea@cstj.qc.ca
 ### ATTENTION - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
 
 À ce jour, j´ai reçu huit (8) invitations; **ve2cuy: NathanScolaire, Alkorus, Excelsis27, lordcorb, Karim-debug, ZalecBruneau, ALevert-cstj, 1330421**
