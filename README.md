@@ -2,7 +2,7 @@
 ### Il faut m'inviter comme collaborateur (ve2cuy) et m'envoyer le lien du projet à aboudrea@cstj.qc.ca
 ### ATTENTION - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
 
-À ce jour, j´ai reçu HUIT (8) invitations; **NathanScolaire, Alkorus, Excelsis27, lordcorb, Karim-debug, ZalecBruneau, ALevert-cstj, 1330421**
+À ce jour, j´ai reçu huit (8) invitations; **NathanScolaire, Alkorus, Excelsis27, lordcorb, Karim-debug, ZalecBruneau, ALevert-cstj, 1330421**
 
 	NOTE.1: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique.
