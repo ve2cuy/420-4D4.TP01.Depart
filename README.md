@@ -1,8 +1,8 @@
-## Date de remise: Dimanche, le 28 mars 2021, 23h59 sur github, dans un projet <PRIVÉ>.
+## Date de remise: (à préciser), 23h59 sur github, dans un projet <PRIVÉ>.
 ### Il faut inviter votre enseignant comme collaborateur (ve2cuy) et lui envoyer, lorsque le projet sera terminé, le lien du projet à aboudrea@cstj.qc.ca
 ### ATTENTION - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
 
-À ce jour, j´ai reçu huit (8) invitations; **ve2cuy: NathanScolaire, Alkorus, Excelsis27, lordcorb, Karim-debug, ZalecBruneau, ALevert-cstj, 1330421**
+À ce jour, j´ai reçu (0) invitation(s); **ve2cuy:  **
 
 	NOTE.1: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique.
@@ -226,7 +226,6 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 |   3   | README.md                                                                       |  03   |
 | Total | ------------------------------------------------------------------------------> |  30   |
 
-**Note:** Il y aura plus de détails, dans la grille de la correction, d'ici quelques jours.
 
 <hr/>
 
