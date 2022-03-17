@@ -77,6 +77,8 @@ services:
 
   # ================================================
   # Le client PMM pour la base de données postgress
+  # ATTENTION:  Cette solution ne fonctionne pas!!!
+  # À vous de trouver la bonne solution ...+
   # ================================================
   pmm-client-postgres:
     image: "perconalab/pmm-client:dev-latest"
