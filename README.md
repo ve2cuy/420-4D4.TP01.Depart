@@ -2,7 +2,7 @@
 ### Il faut inviter votre enseignant comme collaborateur (ve2cuy) et lui envoyer, lorsque le projet sera terminé, le lien du projet à aboudrea@cstj.qc.ca
 ### ATTENTION - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
 
-À ce jour, j´ai reçu (3) invitation(s); **ve2cuy:  **
+À ce jour, j´ai reçu (6) invitation(s); **ve2cuy:  **
 
 	NOTE.1: En clonant ce projet, vous obtiendrez les fichiers 
 	et les dossiers de départ du travail pratique.
@@ -229,4 +229,4 @@ Utiliser plutot le fichier <a href="https://docs.docker.com/compose/compose-file
 
 <hr/>
 
-Document rédigé par Alain Boudreault - version 2022.03.15.01
+Document rédigé par Alain Boudreault - version 2022.03.28.02
