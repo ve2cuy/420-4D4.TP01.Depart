@@ -1,4 +1,4 @@
-## Date de remise: Mercredi le 30 mars 2022, 23h59 sur github, dans un projet <PRIVÉ>.
+## Date de remise: Mardi le 04 avril 2022, 23h59 sur github, dans un projet <PRIVÉ>.
 ### Il faut inviter votre enseignant comme collaborateur (ve2cuy) et lui envoyer, lorsque le projet sera terminé, le lien du projet à aboudrea@cstj.qc.ca
 ### ATTENTION - Lors du 'push', ne pas inclure le dossier 'bdwp'. 
 
