@@ -7,10 +7,12 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Projet de référence pour 420-4D4.TP01</title>
+    <title>Un site à partir de bootStrap</title>
+
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Quelques ajouts amusants -->
     <link href="dist/css/sticky-footer.css" rel="stylesheet">
 
@@ -20,49 +22,128 @@
   </head>
 
   <body>
+  
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="https://github.com/ve2cuy/420-4D4.TP01.Depart/">Énoncé du TP</a>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="k8s-logo.png"
+          height="25"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notre équipe</a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+        <a
+          class="nav-link dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+        Les applications 
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">Wordpress</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">phpMyAdmin</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Postgres</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Percona</a>
+          </li>          
+        </ul>
+      </div>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="http://ve2cuy.com/420-4d4b/index.php/contenu/">420-4D4 <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://hub.docker.com">Docker.hub</a>
-          </li>
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
 
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com">Github</a>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="moi.jpg"
+            class="rounded-circle"
+            height="25"
+            alt="Photo de moi"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">Mon profil</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="" id="services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-            <div class="dropdown-menu" aria-labelledby="services">
-              <a class="dropdown-item" href="#">Worpress</a>
-              <a class="dropdown-item" href="#">PhpMyAdmin</a>
-              <a class="dropdown-item" href="#">PostgreSQL</a>
-              <a class="dropdown-item" href="#">Percona</a>
-            </div>
+          <li>
+            <a class="dropdown-item" href="https://ve2cuy.github.io/4204d4/">Site 420-4D4</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
           </li>
         </ul>
-        <!--
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Vous aimeriez trouver?">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-        </form>
-        -->
       </div>
-    </nav>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
 
     <div class="container">
 
       <div class="starter-template">
-        <h1 style="color: chocolate;">Bienvenue sur TP01.420-4D4</h1>
-        <h5 style="color: rgb(51, 111, 143);">Sélectionnez un sous-système en cliquant sur son logo</h5><br/><br/>
+        <h1 style="color: chocolate;">Bienvenue sur TP01.420-4D4 V26</h1>
+        <h5 style="color: rgb(51, 111, 143);">Sélectionnez une application en cliquant sur son logo</h5><br/><br/>
         <center><img src="" width="100" height="100" title="wordpress"/>&nbsp<img src="" width="100" height="100" title="phpmyadmin"/>
         <img src="" width="100" height="100" title="postgres"/>&nbsp;<img src="" width="100" height="100" title="percona" /></center>
 
@@ -74,7 +155,7 @@
     <footer class="footer">
       <div class="container">
 
-        <span class="text-muted">Projet de départ par Alain Boudreault (c) 2021-2023, TP01 réalisé par VOTRE NOM</span>
+        <span class="text-muted">Projet de départ par Alain Boudreault (c) 2021-2026, TP01 réalisé par VOTRE NOM</span>
       </div>
     </footer>
 
@@ -82,11 +163,22 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+      // Debug: check Bootstrap availability and initialize dropdowns manually
+      console.log('bootstrap available?', typeof bootstrap !== 'undefined');
+      (function() {
+        try {
+          var toggles = document.querySelectorAll('.dropdown-toggle');
+          toggles.forEach(function(el) {
+            // If a Dropdown instance already exists, this will not break
+            new bootstrap.Dropdown(el);
+          });
+        } catch (err) {
+          console.error('Error initializing dropdowns:', err);
+        }
+      })();
+    </script>
   </body>
 </html>
