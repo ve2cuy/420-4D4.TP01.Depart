@@ -15,6 +15,8 @@
 
 <hr/>
 
+* Gitlab: login 'root', grep 'Password:' /etc/gitlab/initial_root_password
+
 ## ÉNONCÉ DU TRAVAIL PRATIQUE 01 - PONDÉRATION: 30% - Version 1.0
 ## Estimation approximative du temps de réalisation du travail: Pi à Pi * 2,6 HEURES.
 
